@@ -105,10 +105,10 @@ public class Game {
                 ascii = (int) letterInput;
                 letterPosition = ascii - 97;
                 if (letterPosition >= 26 || letterPosition < 0) {
-                    stringInTemplate = template.getContent()[26];
+                    stringInTemplate = template.getContent()[27];
                 } else {
                     if (Objects.equals(template.getContent()[letterPosition], "")) {
-                        stringInTemplate = template.getContent()[26];
+                        stringInTemplate = template.getContent()[27];
                     } else {
                         stringInTemplate = template.getContent()[letterPosition];
                     }
